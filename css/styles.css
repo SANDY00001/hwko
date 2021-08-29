@@ -63,10 +63,6 @@ text-align: left;
 .order-link{
   border-radius: 10%;
 }
-.download-btn {
-  margin: 5% 3% 5% 0;
-  line-height: 1.5;
-}
 
 @media (max-width:1028px) {
   .logo{
@@ -79,24 +75,13 @@ text-align: left;
     padding-top: 100px;
   }
 }
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
-  border-radius: 10%;
-}
 
 @media (max-width:1028px) {
   #title {
     text-align: center;
   }
 
-  .title-image {
-    position: static;
-    transform: none;
-    margin-top: 70px;
-  }
+
 }
 .head-one{
   text-align: center;
@@ -155,59 +140,14 @@ p {
 .icon:hover {
   color:#eb2f06;
 }
-.hotline-bar{
-    text-align: right;
-    padding-top:20px;
-    padding-right:30px;
-}
 
-.yellowbar{
-    background:  #ffffff;
-    padding: 5px;
-    font-size: 18px;
-    text-align: left;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    font-weight: 600;
-    color:#000000;
-    float: right;
-}
 
-.blackbar{
-    background:#FF7600;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 18px;
-    text-align: left;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    font-weight: 600;
-    color:#ffffff;
-    float: right;
 
-}
 
-.mobiledialbar{
-    background: #BA770F;
-    text-align: center;
-    color: #FFFFFF;
-    line-height: 30px;
-    padding: 4px;
-    font-size: 18px;
-
-}
 @media only screen and (max-width: 500px) {
-  .mobiledialbar{
-      font-size: 16px;
 
-  }
   .body{
     width: 80%;
-  }
-
-  .hotline-bar{
-    width:  100%;
   }
 
 }
@@ -261,11 +201,7 @@ color: #0F0F0F;
 
 }
 
-.testimonial-image {
-  width: 20%;
-  border-radius: 100%;
-  margin: 20px;
-}
+
 
 #press {
   background-color: #7C83FD;
@@ -273,14 +209,16 @@ color: #0F0F0F;
   padding-bottom: 3%;
 }
 
-.press-image {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
 
 #pricing {
     padding: 7% 15%;
   text-align: center;
+}
+@media (max-width:1000px) {
+  #pricing {
+      padding: 7% 30%;
+    text-align: center;
+  }
 }
 
 .pricing-column {
